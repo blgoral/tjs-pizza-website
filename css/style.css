@@ -1,0 +1,68 @@
+* {
+
+	
+	margin: 0;
+	padding: 0;
+	/*box-sizing: border-box;*/
+
+}
+
+body {
+
+	background-color: rgb(38, 34, 32);
+	font-family: 'Fjalla One', sans-serif;
+	text-shadow: 2px 2px 2px rgba(0, 0, 14, 0.8);
+}
+
+
+
+
+img:first-of-type {
+	position: absolute;
+	left: 0px;
+    top: 0px;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    
+}
+
+nav {
+	z-index:; 5;
+}
+
+
+ul.navigation_bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(38, 34, 32, 0);
+}
+
+ul.navigation_bar li 
+{
+
+	float: left;
+	font-size: x-large;
+
+}
+
+ul.navigation_bar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.navigation_bar li a:hover:not(.active) {background-color: rgba(38, 34, 32, 0.5);}
+
+ul.navigation_bar li a.active {background-color: #4CAF50;}
+
+ul.navigation_bar li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.navigation_bar li.right, 
+    ul.navigation_bar li {float: none;}
+}
