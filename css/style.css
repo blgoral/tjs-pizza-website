@@ -97,7 +97,7 @@ ul.navigation_bar li
 {
 
 	float: left;
-	font-size: large;
+	
     
 
 }
@@ -106,8 +106,9 @@ ul.navigation_bar li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 4px 16px;
     text-decoration: none;
+    font-size: 3vw;
 }
 
 ul.navigation_bar li a:hover:not(.active) {background-color: rgba(38, 34, 32, 0.5);}
@@ -123,4 +124,37 @@ ul.navigation_bar li.right {float: right; }
 
 @media screen and (max-width: 600px){
     nav{position: relative;}
+
+    h1 {
+        font-size: 5vw;
+    }
+    p {
+        font-size: 3vw;
+    }
+
+    .small-column {
+        width: 100%;
+        padding: 20px;
+
+
+    }
+}
+
+/*Reduce the font size on large views*/
+@media screen and (min-width: 1080px){
+
+    h1 {
+
+        font-size: 1.8vw;
+    }
+
+    p {
+        font-size: 1vw;
+    }
+
+    ul.navigation_bar li a {
+    
+    font-size: 2vw;
+}
+
 }
