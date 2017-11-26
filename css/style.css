@@ -21,21 +21,29 @@ body {
 
 }
 
-
-
-
-
-
 header {
     position: relative;
     /*width: 100%;*/
     height: auto;
 }
 
+header object {
+    position: absolute;
+    left: 0;
+    top: 20%;
+    left:25%;
+    width: 50%;
+    z-index: 3;
+}
+
 img {
     position: relative;
     width: 100%;
     height: auto;
+}
+
+.container {
+    position: relative;
 }
 
 header img {
