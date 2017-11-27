@@ -30,7 +30,7 @@ header {
 header object {
     position: absolute;
     left: 0;
-    top: 20%;
+    top: 30%;
     left:25%;
     width: 50%;
     z-index: 3;
@@ -46,13 +46,33 @@ img {
     position: relative;
 }
 
+
 header img {
     position: relative;
     width: 100%;
     height: auto;
+    display:block;
+}
+
+#menubutton {
+    font-size: 4vw;
+    position: relative;
+    text-align: center;
+    left: 0;
+    transform: none;
 }
 
 h1 {
+    font-size: 7vw;
+    letter-spacing: .5vw;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 15%;    
+    z-index: 3;
+}
+
+h2 {
     font-size: 2.5vw;
 }
 
@@ -77,8 +97,11 @@ section {
     float: left;
     padding: 10px;
     
+}
 
-
+hr.linestyle2 {
+    border-top: 3px double #8c8b8b;
+    color: white;
 }
 
 div.small-column img {
@@ -86,6 +109,13 @@ div.small-column img {
     margin: auto;
     
 
+}
+
+.wide-column {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
 }
 
 
@@ -133,7 +163,7 @@ ul.navigation_bar li.right {float: right; }
 @media screen and (max-width: 600px){
     nav{position: relative;}
 
-    h1 {
+    h2 {
         font-size: 5vw;
     }
     p {
@@ -151,7 +181,7 @@ ul.navigation_bar li.right {float: right; }
 /*Reduce the font size on large views*/
 @media screen and (min-width: 1080px){
 
-    h1 {
+    h2 {
 
         font-size: 1.8vw;
     }
