@@ -12,7 +12,8 @@
 }
 
 body {
-
+    
+    background-image: url("../images/background_texture.jpg");
 	background-color: rgb(38, 34, 32);
 	font-family: 'Fjalla One', sans-serif;
 	text-shadow: 2px 2px 2px rgba(0, 0, 14, 0.8);
@@ -25,6 +26,7 @@ header {
     position: relative;
     /*width: 100%;*/
     height: auto;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 header object {
@@ -87,6 +89,9 @@ section {
     /*padding: 10px;
     margin: 10px;*/
     box-sizing: content-box;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: block;
+    overflow: hidden;
 
 }
 
@@ -95,13 +100,25 @@ section {
 
     width: 33.3%;
     float: left;
-    padding: 10px;
+    padding: 20px;
     
 }
 
+.medium-column {
+    width: 50%;
+    float: left;
+    padding: 10px;
+}
+
 hr.linestyle2 {
-    border-top: 3px double #8c8b8b;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
     color: white;
+    height: 10px;
+    width: 75%;
+    margin: auto;
+    left: 50%;
+
 }
 
 div.small-column img {
@@ -110,6 +127,13 @@ div.small-column img {
     
 
 }
+
+div.medium-column iframe {
+    width: 100%;
+    margin: auto;
+
+    }
+
 
 .wide-column {
     width: 100%;
