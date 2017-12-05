@@ -255,29 +255,47 @@ footer {
     background: white;
     height: 100px;
     
+    
 }
 
 .spacer {
-    height: 50px;
+   
+    position: relative;
     background-color: rgba(0, 0, 0, 0.3);
+    padding-top: 20px;
+    
+
 
 }
 
-.divider-box {
-display:block;
-position:relative;
-content:'';
-top: -25px;
-background: inherit;
-box-shadow: -50px 50px 0 white, 50px -50px 0 white;
-left: 50%;
-width: 50px;
-height: 50px;
--webkit-transform: translateX(-50%) rotate(45deg);
-transform: translateX(-50%) rotate(45deg);
+
+
+ 
+.spacer svg {
+    position: relative;
+    display: block;
+    margin: auto;
+    with: 100%;
+        
+
+}
+
+
+
+
+
+polygon {
+    fill: white;
+    stroke: none;
 
 }
 
 footer hr {
+    
+}
+
+footer img {
+    width: 72px;
+    z-index: 3;
     
 }
